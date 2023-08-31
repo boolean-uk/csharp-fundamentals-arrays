@@ -74,7 +74,9 @@ namespace csharp_fundamentals_arrays.Main
             // TODO 4. Using array indices, set the value of the result variable below to the sum of every number in the numbers array
             // WRITE YOUR CODE BETWEEN THIS LINE...
 
-            int result = numbers[0] + numbers[1] + numbers[2] + numbers[3];
+            //int result = numbers[0] + numbers[1] + numbers[2] + numbers[3];
+            int result = numbers.Sum();
+
 
             // ... AND THIS LINE
 
