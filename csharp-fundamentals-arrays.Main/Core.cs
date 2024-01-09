@@ -50,20 +50,9 @@ namespace csharp_fundamentals_arrays.Main
             // teacher contained in the teachers array
             // WRITE YOUR CODE BETWEEN THIS LINE...
 
-            String teacher = "Mary";
+            String teacher = teachers[3];
 
-            newTeachers[0] = teachers[0]; // Nathan
-            newTeachers[1] = teachers[1]; // Ed
-            newTeachers[2] = teachers[2]; // Dave
-            newTeachers[3] = teacher;     // Mary
-            newTeachers[4] = teachers[3]; // Carlo
-            newTeachers[5] = teachers[4]; // Lewis
-            newTeachers[6] = teachers[5]; // Jules
-            newTeachers[7] = teachers[6]; // John
-            newTeachers[8] = teachers[7]; // Chris
-            newTeachers[9] = teachers[8]; // Nigel
-
-            return newTeachers[4];
+            return teacher;
         }
 
         public String[] three()
