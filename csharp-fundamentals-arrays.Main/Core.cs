@@ -74,7 +74,7 @@ namespace csharp_fundamentals_arrays.Main
 
         public int four()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             int[] numbers = { 42, 13, 17, 91 };
 
             // TODO 4. Using array indices, set the value of the result variable below to the sum of every number in the numbers array
@@ -89,7 +89,7 @@ namespace csharp_fundamentals_arrays.Main
 
         public float[] five()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             //TODO: 5. Create an array called floats that contains 3 floating point numbers: 9.62, 23.17 and 3.14
             // WRITE YOUR CODE BETWEEN THIS LINE...
 
