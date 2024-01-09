@@ -4,7 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-
+//nicolai
 namespace csharp_fundamentals_arrays.Main
 {
     public class Core
