@@ -26,8 +26,8 @@ namespace csharp_fundamentals_arrays.Main
 
         public int[] one()
         {
-            throw new NotImplementedException();
             int[] numbers = { 42, 13, 17, 91 };
+            //throw new NotImplementedException();
 
             // 1. Values contained in an array are each stored at a unique numeric index, starting from 0 ascending in order.
             // E.g. The first value is at index 0, the second at index 1, the third at index 3.
@@ -43,8 +43,8 @@ namespace csharp_fundamentals_arrays.Main
 
         public String two()
         {
-            throw new NotImplementedException();
             String[] teachers = { "Nathan", "Ed", "Dave", "Carlo", "Lewis", "Jules", "John", "Chris", "Nigel" };
+            //throw new NotImplementedException();
 
             //TODO: 2. Using an array index, change the value of the teacher variable below to be the fourth
             // teacher contained in the teachers array
@@ -59,7 +59,7 @@ namespace csharp_fundamentals_arrays.Main
 
         public String[] three()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             //TODO: 3. Create a string array named cars that contains three names of car manufacturers: Audi, BMW and Dodge
             // WRITE YOUR CODE BETWEEN THIS LINE...
 
@@ -72,8 +72,8 @@ namespace csharp_fundamentals_arrays.Main
 
         public int four()
         {
-            throw new NotImplementedException();
             int[] numbers = { 42, 13, 17, 91 };
+            //throw new NotImplementedException();
 
             // TODO 4. Using array indices, set the value of the result variable below to the sum of every number in the numbers array
             // WRITE YOUR CODE BETWEEN THIS LINE...
@@ -87,7 +87,7 @@ namespace csharp_fundamentals_arrays.Main
 
         public float[] five()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             //TODO: 5. Create an array called floats that contains 3 floating point numbers: 9.62, 23.17 and 3.14
             // WRITE YOUR CODE BETWEEN THIS LINE...
 
