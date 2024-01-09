@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace csharp_fundamentals_arrays.Main
+﻿namespace csharp_fundamentals_arrays.Main
 {
     public class Core
     {
@@ -26,15 +19,15 @@ namespace csharp_fundamentals_arrays.Main
 
         public int[] one()
         {
-            int[] numbers = { 42, 13, 17, 91 };
             //throw new NotImplementedException();
+            int[] numbers = { 42 , 13 , 17 , 91 };
 
             // 1. Values contained in an array are each stored at a unique numeric index, starting from 0 ascending in order.
             // E.g. The first value is at index 0, the second at index 1, the third at index 3.
             // Using an index, change the number 17 in the numbers array to 68
             // WRITE YOUR CODE BETWEEN THIS LINE...
 
-
+            numbers[2] = 68;
 
             // ... AND THIS LINE
 
@@ -43,14 +36,14 @@ namespace csharp_fundamentals_arrays.Main
 
         public String two()
         {
-            String[] teachers = { "Nathan", "Ed", "Dave", "Carlo", "Lewis", "Jules", "John", "Chris", "Nigel" };
             //throw new NotImplementedException();
+            String[] teachers = { "Nathan" , "Ed" , "Dave" , "Carlo" , "Lewis" , "Jules" , "John" , "Chris" , "Nigel" };
 
             //TODO: 2. Using an array index, change the value of the teacher variable below to be the fourth
             // teacher contained in the teachers array
             // WRITE YOUR CODE BETWEEN THIS LINE...
 
-            String teacher = "";
+            String teacher = teachers[3];
 
             // ... AND THIS LINE
 
@@ -63,23 +56,22 @@ namespace csharp_fundamentals_arrays.Main
             //TODO: 3. Create a string array named cars that contains three names of car manufacturers: Audi, BMW and Dodge
             // WRITE YOUR CODE BETWEEN THIS LINE...
 
-
+            String[] cars = { "Audi" , "BMW" , "Dodge" };
 
             // ... AND THIS LINE
 
-            //return cars;
+            return cars;
         }
 
         public int four()
         {
-            int[] numbers = { 42, 13, 17, 91 };
             //throw new NotImplementedException();
+            int[] numbers = { 42 , 13 , 17 , 91 };
 
             // TODO 4. Using array indices, set the value of the result variable below to the sum of every number in the numbers array
             // WRITE YOUR CODE BETWEEN THIS LINE...
 
-            int result = 0;
-
+            int result = numbers.Sum();
             // ... AND THIS LINE
 
             return result;
@@ -91,7 +83,7 @@ namespace csharp_fundamentals_arrays.Main
             //TODO: 5. Create an array called floats that contains 3 floating point numbers: 9.62, 23.17 and 3.14
             // WRITE YOUR CODE BETWEEN THIS LINE...
 
-            float[] floats;
+            float[] floats = { 9.62f , 23.17f , 3.14f };
 
 
             // ... AND THIS LINE
